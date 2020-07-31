@@ -13,8 +13,8 @@
 - svm.py：使用SVM算法对MNIST数据集进行分类和模型评估
 - result.py：对不同参数的模型评估指标进行可视化
 - cnn.py：定义了数据与处理函数，可以载入MNIST和CIFAR10两种数据集；定义了acc/loss可视化函数；定义了各种神经网络
-- cnn_mnist.py：使用BP网络，自定义单卷积层CNN和LeNet对MNIST数据集进行分类并输出acc/loss可视化图
-- cnn_cifar10.py：使用所有定义的神经网络对CIFAR10数据集进行分类并输出acc/loss可视化图
+- cnn-mnist.py：使用BP网络，自定义单卷积层CNN和LeNet对MNIST数据集进行分类并输出acc/loss可视化图
+- cnn-cifar10.py：使用所有定义的神经网络对CIFAR10数据集进行分类并输出acc/loss可视化图
 - data：存放mnist数据集的文件夹
 ## 部分结果展示
 - KNN分类结果
