@@ -19,13 +19,18 @@
 ## 部分结果展示
 - KNN分类结果
 <img src='result/knn-pre.png' alt='knn result'/>
+
 - 不同核函数SVM分类结果
 <img src='result/svm-res.png' alt='svm result'/>
+
 - 单层卷积神经网络在MNIST数据集上的分类准确率
 <img src='result/cnn.png' alt='cnn mnist result'/>
+
 - VGGNet在CIFAR10数据集上的分类准确率
 <img src='result/vggnet.png' alt='vggnet cifar10 result'/>
+
 - ResNet在CIFAR10数据集上的分类准确率
 <img src='result/resnet.png' alt='resnet cifar10 result'/>
+
 ## 注意事项
 - MNIST数据集须自行下载，[官网链接](http://yann.lecun.com/exdb/mnist/)
