@@ -2,7 +2,8 @@ import tensorflow as tf
 import os
 import cnn
 
-models = [cnn.Cnn()]
+models = [cnn.BpNet(), cnn.Cnn(), cnn.LeNet(), cnn.AlexNet(), cnn.VGGNet(),
+          cnn.InceptionNet(num_blocks=2, num_classes=10), cnn.ResNet([2, 2, 2, 2])]
 x_train, y_train, x_test, y_test = cnn.data_processing(dataset='cifar10')
 
 for model in models:
