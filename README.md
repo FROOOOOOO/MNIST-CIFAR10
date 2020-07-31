@@ -1,0 +1,2 @@
+# MNIST-CIFAR10
+使用sklearn库实现KNN和SVM对MNIST数据分类；使用TensorFlow实现BP,CNN,LeNet,AlexNet,VGGNet,InceptionNet,ResNet，并对MNIST和CIFAR10数据集进行分类
