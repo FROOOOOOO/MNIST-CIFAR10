@@ -16,3 +16,6 @@
 - cnn_mnist.py：使用BP网络，自定义单卷积层CNN和LeNet对MNIST数据集进行分类并输出acc/loss可视化图
 - cnn_cifar10.py：使用所有定义的神经网络对CIFAR10数据集进行分类并输出acc/loss可视化图
 - data：存放mnist数据集的文件夹
+## 部分结果展示
+## 注意事项
+- MNIST数据集须自行下载，[官网链接](http://yann.lecun.com/exdb/mnist/)
